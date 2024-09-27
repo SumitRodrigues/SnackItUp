@@ -14,6 +14,9 @@
 		4A298E2D2CA3469900E73CFF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A298E2C2CA3469900E73CFF /* Home.swift */; };
 		4A298E302CA34A8900E73CFF /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A298E2F2CA34A8900E73CFF /* CategoryModel.swift */; };
 		4A298E322CA3DC6400E73CFF /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A298E312CA3DC6400E73CFF /* ProductModel.swift */; };
+		4A298E342CA6400A00E73CFF /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A298E332CA6400A00E73CFF /* CollectionView.swift */; };
+		4A298E362CA642CF00E73CFF /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A298E352CA642CF00E73CFF /* CartView.swift */; };
+		4A298E382CA667E500E73CFF /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A298E372CA667E500E73CFF /* CartManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		4A298E2C2CA3469900E73CFF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		4A298E2F2CA34A8900E73CFF /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		4A298E312CA3DC6400E73CFF /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		4A298E332CA6400A00E73CFF /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		4A298E352CA642CF00E73CFF /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		4A298E372CA667E500E73CFF /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 			children = (
 				4A298E192CA30DD200E73CFF /* SnackItUpApp.swift */,
 				4A298E1B2CA30DD200E73CFF /* ContentView.swift */,
+				4A298E372CA667E500E73CFF /* CartManager.swift */,
 				4A298E2E2CA34A0300E73CFF /* Model */,
 				4A298E292CA30EA300E73CFF /* View */,
 				4A298E1D2CA30DD300E73CFF /* Assets.xcassets */,
@@ -79,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				4A298E2C2CA3469900E73CFF /* Home.swift */,
+				4A298E332CA6400A00E73CFF /* CollectionView.swift */,
+				4A298E352CA642CF00E73CFF /* CartView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A298E342CA6400A00E73CFF /* CollectionView.swift in Sources */,
+				4A298E382CA667E500E73CFF /* CartManager.swift in Sources */,
+				4A298E362CA642CF00E73CFF /* CartView.swift in Sources */,
 				4A298E1C2CA30DD200E73CFF /* ContentView.swift in Sources */,
 				4A298E302CA34A8900E73CFF /* CategoryModel.swift in Sources */,
 				4A298E2D2CA3469900E73CFF /* Home.swift in Sources */,

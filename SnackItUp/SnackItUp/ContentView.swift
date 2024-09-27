@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var cartManager = CartManager()
+    
     var body: some View {
-        Home()
+        ZStack(alignment: .bottom) {
+            Home()
+        }
+        
     }
 }
 
